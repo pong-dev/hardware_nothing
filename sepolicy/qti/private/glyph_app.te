@@ -35,11 +35,11 @@ allow glyph_app system_app_data_file:{
 allow glyph_app {
   mnt_vendor_file
   sysfs_leds
-  vendor_sysfs_wireless
+  sysfs_wls_boost
 }:dir r_dir_perms;
 
 allow glyph_app {
   mnt_vendor_file
   sysfs_leds
-  vendor_sysfs_wireless
+  sysfs_wls_boost
 }:file rw_file_perms;

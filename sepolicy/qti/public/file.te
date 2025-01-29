@@ -1,2 +1,5 @@
-# Charging
-type vendor_sysfs_wireless, fs_type, sysfs_type;
+# PowerShare
+type sysfs_wls_boost, fs_type, sysfs_type;
+
+# Charger
+type proc_charger, fs_type, proc_type;
